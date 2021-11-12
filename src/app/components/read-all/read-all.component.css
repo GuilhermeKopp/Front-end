@@ -21,7 +21,7 @@
 
 .novo-todo {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 mat-card {
@@ -42,5 +42,14 @@ p {
 
 .actions button {
     margin: .5rem;
+}
+
+.nada {
+    margin-top: .9rem;
+}
+
+h2 {
+    margin-bottom: .7rem;
+    color: rgb(255, 255, 255);
 }
 

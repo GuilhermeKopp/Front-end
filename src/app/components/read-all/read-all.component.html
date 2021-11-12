@@ -16,7 +16,7 @@
                 <button (click)="finalizar(item)" mat-mini-fab color="primary">
                     <mat-icon>done</mat-icon>
                 </button>
-                <button mat-mini-fab color="accent">
+                <button routerLink="update/{{ item.id }}" mat-mini-fab color="accent">
                     <mat-icon>edit</mat-icon>
                 </button>
                 <button (click)="delete(item.id)" mat-mini-fab color="warn">
@@ -24,5 +24,8 @@
                 </button>
             </div>
           </mat-card>
+    </div>
+    <div class="nada">
+        <h2>1</h2>
     </div>
 </div>
